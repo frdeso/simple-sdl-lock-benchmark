@@ -4,7 +4,7 @@
 #include <stdlib.h>
 /*
  * Arg1 : with lock/unlock = 1 without = 2
- * Arg2 : Number of interations
+ * Arg2 : Number of iterations
  */
 int main(int argc, char *argv[])
 {
