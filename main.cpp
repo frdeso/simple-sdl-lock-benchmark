@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	SDL_mutex *mutex = SDL_CreateMutex();
 	int lock = atoi(argv[1]);
-	long long int num_iter = atoi(argv[1]);
+	long long int num_iter = atoi(argv[2]);
 
 	for(int i = 0; i < num_iter; ++i)
 	{
