@@ -3,7 +3,7 @@
 #include <SDL_mutex.h>
 #include <stdlib.h>
 /*
- * Arg1 : with lock/unlock = 1 without = 2
+ * Arg1 : with lock/unlock = 1 without = 0
  * Arg2 : Number of iterations
  */
 int main(int argc, char *argv[])
